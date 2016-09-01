@@ -8,7 +8,7 @@ public class Mathod{
 			divisor = y / (x % y);
 		}else if(x == y){
 				divisor = x;
-			}else divisor = y / (x % y);
+			}elsie divisor = y / (x % y);
 	return divisor;
 	}
 }
