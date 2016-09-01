@@ -1,0 +1,14 @@
+
+import java.util.*;
+public class Ch{
+	public char getCharM(){
+		Scanner getInput = new Scanner(System.in);
+		String input = getInput.nextLine();
+		char firL = input.charAt(0);
+		if((firL < 'A' || firL > 'Z') || (firL < 'a' || firL > 'z')){
+			System.out.print("输入错误！不知道星期怎么拼吗？你妹的！再输：");
+			firL = getCharM();
+		}
+	return firL;
+	}
+}
