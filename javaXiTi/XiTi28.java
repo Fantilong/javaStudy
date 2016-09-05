@@ -20,5 +20,16 @@ public class XiTi28{
 				}
 			}
 		}
+		//顺序输出整数数组
+		for(int j = 0;j < num.length;j++){
+			for(int x = j + 1;x < num.length;x++)i{
+				if(num[j] > num[x]){
+					int l = num[j];
+					num[j] = num[x];
+					num[x] = l;
+				}
+			}
+                System.out.print(num[j] + " ");
+		}
 	}
 }
